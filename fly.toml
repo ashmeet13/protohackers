@@ -10,7 +10,7 @@ processes = []
   buildpacks = ["gcr.io/paketo-buildpacks/go"]
 
 [env]
-  CMD = "echo"
+  CMD = "prime_time"
 
 [[services]]
   internal_port = 10000
